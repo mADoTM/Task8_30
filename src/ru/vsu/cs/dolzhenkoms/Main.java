@@ -8,9 +8,8 @@ import java.util.Scanner;
 
 public class Main{
     public static void main(String[] args) throws IOException {
-        //String answer = readString();
-        new WindowUI();
-        //runInterface(answer);
+        String answer = readString();
+        runInterface(answer);
     }
 
     private static String readString() {

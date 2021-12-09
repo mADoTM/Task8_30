@@ -3,7 +3,7 @@ package ru.vsu.cs.dolzhenkoms;
 import java.io.IOException;
 import java.util.Scanner;
 
-public class Main{
+public class MainConsole {
     public static void main(String[] args) throws IOException {
         String answer = readString();
         runInterface(answer);

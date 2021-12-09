@@ -20,4 +20,44 @@ public class MathOperationTest {
 
         Assert.assertEquals(testArray, expectedArray);
     }
+
+    @Test
+    public void getNewDoubleArrayByRule2() {
+        int[][] expectedArray = {
+                {1,1,1,1},
+                {1,1,1,1},
+                {1,1,1,1}
+        };
+        int[][] testArray = MathOperation.getNewDoubleArrayByRule(new int[][]{
+                {3,4,4,3},
+                {3,5,5,3},
+                {3,4,4,3}
+        });
+
+        Assert.assertEquals(testArray, expectedArray);
+    }
+
+    @Test
+    public void getNewDoubleArrayByRule3() {
+        int[][] expectedArray = {
+                {1,1,1,1},
+        };
+        int[][] testArray = MathOperation.getNewDoubleArrayByRule(new int[][]{
+                {1,1,1,1},
+        });
+
+        Assert.assertEquals(testArray, expectedArray);
+    }
+
+    @Test
+    public void getNewDoubleArrayByRule4() {
+        int[][] expectedArray = {
+                {1}
+        };
+        int[][] testArray = MathOperation.getNewDoubleArrayByRule(new int[][]{
+                {1}
+        });
+
+        Assert.assertEquals(testArray, expectedArray);
+    }
 }

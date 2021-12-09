@@ -1,7 +1,8 @@
-package ru.vsu.cs.dolzhenkoms.Utils;
+package ru.vsu.cs.dolzhenkoms.Tests;
 
 import org.junit.Assert;
 import org.junit.Test;
+import ru.vsu.cs.dolzhenkoms.MathOperation;
 
 public class MathOperationTest {
 

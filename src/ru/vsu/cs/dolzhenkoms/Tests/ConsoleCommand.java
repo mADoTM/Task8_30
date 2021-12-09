@@ -1,4 +1,4 @@
-package ru.vsu.cs.dolzhenkoms.Utils;
+package ru.vsu.cs.dolzhenkoms.Tests;
 
 public enum ConsoleCommand {
     Help,

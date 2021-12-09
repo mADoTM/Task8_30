@@ -1,8 +1,5 @@
 package ru.vsu.cs.dolzhenkoms;
 
-import ru.vsu.cs.dolzhenkoms.Utils.ConsoleUI;
-import ru.vsu.cs.dolzhenkoms.Utils.WindowUI;
-
 import java.io.IOException;
 import java.util.Scanner;
 

@@ -11,7 +11,7 @@ import java.awt.event.ActionListener;
 import java.io.File;
 import java.io.IOException;
 
-public class WindowUI extends JFrame {
+public class GuiWindow extends JFrame {
     private JTable inputArrayTable;
     private JTable outputArrayTable;
 
@@ -29,7 +29,7 @@ public class WindowUI extends JFrame {
                                                         {3,2,2,0},
                                                         {1,2,1,0}};
 
-    public WindowUI() {
+    public GuiWindow() {
         super("WindowUI");
         setDefaultCloseOperation(EXIT_ON_CLOSE);
 

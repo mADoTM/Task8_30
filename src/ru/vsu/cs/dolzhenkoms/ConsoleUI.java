@@ -1,7 +1,6 @@
 package ru.vsu.cs.dolzhenkoms;
 
 import ru.vsu.cs.dolzhenkoms.Utils.ArrayUtils;
-import ru.vsu.cs.dolzhenkoms.Tests.ConsoleCommand;
 import ru.vsu.cs.dolzhenkoms.Utils.FileManager;
 
 import java.io.IOException;

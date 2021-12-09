@@ -3,7 +3,7 @@ package ru.vsu.cs.dolzhenkoms;
 import java.io.IOException;
 import java.util.Scanner;
 
-public class MainConsole {
+public class ConsoleMain {
     public static void main(String[] args) throws IOException {
         String answer = readString();
         runInterface(answer);
@@ -26,7 +26,7 @@ public class MainConsole {
             (new ConsoleUI()).run();
         }
         else {
-            new WindowUI();
+            new GuiWindow();
         }
     }
 }
